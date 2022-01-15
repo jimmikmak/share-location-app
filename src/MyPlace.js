@@ -1,4 +1,5 @@
 import { Map } from "./UI/Map";
+import sanitizeHtml from "sanitize-html";
 
 class LoadedPlace {
   constructor(coordinates, address) {
